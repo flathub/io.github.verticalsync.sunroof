@@ -46,7 +46,7 @@ modules:
         path: startsunroof
 
       - type: file
-        url: https://raw.githubusercontent.com/verticalsync/Sunroof/master/meta/io.github.verticalsync.sunroof.metainfo.xml
+        url: https://raw.githubusercontent.com/verticalsync/Sunroof/main/meta/io.github.verticalsync.sunroof.metainfo.xml
         sha512: 274db3a14e4a9db9957b2234b4aad27fa707beb00b15d71ae98dcd25dbb8e1f05b5a6fc5af87af46521495051f1b2dd3b4d79fc74431f4e6e3314efed3841d14
         x-checker-data:
           type: json
@@ -55,7 +55,7 @@ modules:
           url-query: .download_url
 
       - type: file
-        url: https://github.com/verticalsync/Sunroof/releases/download/v1.6.0/Sunroof-1.6.0.AppImage
+        url: https://github.com/verticalsync/Sunroof/releases/latest/download/Sunroof-1.6.0.AppImage
         dest-filename: Sunroof.AppImage
         sha512: c6425e0f2fab6e7f0eced74ff39657adbc8161239b68525d2fd3e922ed388741ea84956eea1d9078641cd329a24ab23b8ff6c152a024d938d13e48e1a544c49c
         only-arches: [x86_64]
@@ -64,7 +64,7 @@ modules:
           url: https://github.com/verticalsync/Sunroof/releases/latest/download/latest-linux.yml
 
       - type: file
-        url: https://github.com/verticalsync/Sunroof/releases/download/v1.6.0/Sunroof-1.6.0-arm64.AppImage
+        url: https://github.com/verticalsync/Sunroof/releases/latest/download/Sunroof-1.6.0-arm64.AppImage
         dest-filename: Sunroof.AppImage
         sha512: 53e632f175745008b3ae36dca0d17003ee2cbbc44870c4f49cbd49ea28e7f90b2ada622ecd71b19698b2d242d8318f2c831882f9d91389c601255eea407e711f
         only-arches: [aarch64]
