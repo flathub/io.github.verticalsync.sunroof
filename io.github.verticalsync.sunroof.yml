@@ -46,8 +46,8 @@ modules:
         path: startsunroof
 
       - type: file
-        url: https://raw.githubusercontent.com/verticalsync/Sunroof/master/meta/io.github.verticalsync.sunroof.metainfo.xml
-        sha512: 274db3a14e4a9db9957b2234b4aad27fa707beb00b15d71ae98dcd25dbb8e1f05b5a6fc5af87af46521495051f1b2dd3b4d79fc74431f4e6e3314efed3841d14
+        url: https://raw.githubusercontent.com/verticalsync/Sunroof/main/meta/io.github.verticalsync.sunroof.metainfo.xml
+        sha512: 2d10187a42f88525d69f182eaabd49b1f501650f4cb56fc3d00108c3acb1619eb2621a8853466b8ba5e84cdbf97021ab6364b8d76b692dc55cadc26e864f2f19
         x-checker-data:
           type: json
           url: https://api.github.com/repos/verticalsync/Sunroof/contents/meta/io.github.verticalsync.sunroof.metainfo.xml
@@ -55,18 +55,18 @@ modules:
           url-query: .download_url
 
       - type: file
-        url: https://github.com/verticalsync/Sunroof/releases/download/v1.6.0/Sunroof-1.6.0.AppImage
+        url: https://github.com/verticalsync/Sunroof/releases/latest/download/Sunroof-1.6.1.AppImage
         dest-filename: Sunroof.AppImage
-        sha512: c6425e0f2fab6e7f0eced74ff39657adbc8161239b68525d2fd3e922ed388741ea84956eea1d9078641cd329a24ab23b8ff6c152a024d938d13e48e1a544c49c
+        sha512: 9acbe4fa284bfde8e76ebb97d4f3ba203817e84da84ec468f3caaf330742d8ca38828ddaf36e6294f2cff5876bd878c1bbc50a70f32776d1fef8bb7a4cdf4c5c
         only-arches: [x86_64]
         x-checker-data:
           type: electron-updater
           url: https://github.com/verticalsync/Sunroof/releases/latest/download/latest-linux.yml
 
       - type: file
-        url: https://github.com/verticalsync/Sunroof/releases/download/v1.6.0/Sunroof-1.6.0-arm64.AppImage
+        url: https://github.com/verticalsync/Sunroof/releases/latest/download/Sunroof-1.6.1-arm64.AppImage
         dest-filename: Sunroof.AppImage
-        sha512: 53e632f175745008b3ae36dca0d17003ee2cbbc44870c4f49cbd49ea28e7f90b2ada622ecd71b19698b2d242d8318f2c831882f9d91389c601255eea407e711f
+        sha512: c6e938ade53b85f6c2e70c474c1279b3ad99d3eac2adb182f0da61e7d3d6961bc1a11713e6c599aabd5efeecae956fa17f572939781518a9737cc31e1026b36d
         only-arches: [aarch64]
         x-checker-data:
           type: electron-updater
